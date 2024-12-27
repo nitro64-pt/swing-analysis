@@ -6,6 +6,13 @@ This project analyzes and visualizes data from Wit motion IMU [WT901BLECL MPU925
 
 We use the Wit motion app and record data via text file.  Example data files are stored in `data` folder.
 
+## Setup
+
+```
+conda env create -f environment.yaml
+conda activate swing-env
+```
+
 ## Analysis 
 
 Notebooks and scripts are stored in the top level of this repository 
