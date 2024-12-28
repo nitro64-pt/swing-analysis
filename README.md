@@ -1,4 +1,3 @@
-I
 ## Swing Analysis
 
 Welcome to the Swing Analysis repository. This project is dedicated to analyzing and improving your tennis swing using advanced data analysis techniques.
@@ -21,7 +20,7 @@ To get started with the Swing Analysis project, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/swing-analysis.git
+    git clone https://github.com/nitro64-pt/swing-analysis.git
     ```
 
 ### Contributing
