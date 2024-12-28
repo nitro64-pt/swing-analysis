@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FB97B04B2D1E2DBD0044E63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB97B0322D1E2DBC0044E63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB97B0392D1E2DBC0044E63C;
+			remoteInfo = "Swing Analyzer";
+		};
+		FB97B0552D1E2DBD0044E63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB97B0322D1E2DBC0044E63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB97B0392D1E2DBC0044E63C;
+			remoteInfo = "Swing Analyzer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB97B03A2D1E2DBC0044E63C /* Swing Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swing Analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB97B04A2D1E2DBD0044E63C /* Swing AnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swing AnalyzerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB97B0542D1E2DBD0044E63C /* Swing AnalyzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swing AnalyzerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FB97B03C2D1E2DBC0044E63C /* Swing Analyzer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Swing Analyzer";
+			sourceTree = "<group>";
+		};
+		FB97B04D2D1E2DBD0044E63C /* Swing AnalyzerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Swing AnalyzerTests";
+			sourceTree = "<group>";
+		};
+		FB97B0572D1E2DBD0044E63C /* Swing AnalyzerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Swing AnalyzerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB97B0372D1E2DBC0044E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97B0472D1E2DBD0044E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97B0512D1E2DBD0044E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB97B0312D1E2DBC0044E63C = {
+			isa = PBXGroup;
+			children = (
+				FB97B03C2D1E2DBC0044E63C /* Swing Analyzer */,
+				FB97B04D2D1E2DBD0044E63C /* Swing AnalyzerTests */,
+				FB97B0572D1E2DBD0044E63C /* Swing AnalyzerUITests */,
+				FB97B03B2D1E2DBC0044E63C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB97B03B2D1E2DBC0044E63C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB97B03A2D1E2DBC0044E63C /* Swing Analyzer.app */,
+				FB97B04A2D1E2DBD0044E63C /* Swing AnalyzerTests.xctest */,
+				FB97B0542D1E2DBD0044E63C /* Swing AnalyzerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB97B0392D1E2DBC0044E63C /* Swing Analyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB97B05E2D1E2DBD0044E63C /* Build configuration list for PBXNativeTarget "Swing Analyzer" */;
+			buildPhases = (
+				FB97B0362D1E2DBC0044E63C /* Sources */,
+				FB97B0372D1E2DBC0044E63C /* Frameworks */,
+				FB97B0382D1E2DBC0044E63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FB97B03C2D1E2DBC0044E63C /* Swing Analyzer */,
+			);
+			name = "Swing Analyzer";
+			packageProductDependencies = (
+			);
+			productName = "Swing Analyzer";
+			productReference = FB97B03A2D1E2DBC0044E63C /* Swing Analyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB97B0492D1E2DBD0044E63C /* Swing AnalyzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB97B0612D1E2DBD0044E63C /* Build configuration list for PBXNativeTarget "Swing AnalyzerTests" */;
+			buildPhases = (
+				FB97B0462D1E2DBD0044E63C /* Sources */,
+				FB97B0472D1E2DBD0044E63C /* Frameworks */,
+				FB97B0482D1E2DBD0044E63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB97B04C2D1E2DBD0044E63C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB97B04D2D1E2DBD0044E63C /* Swing AnalyzerTests */,
+			);
+			name = "Swing AnalyzerTests";
+			packageProductDependencies = (
+			);
+			productName = "Swing AnalyzerTests";
+			productReference = FB97B04A2D1E2DBD0044E63C /* Swing AnalyzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB97B0532D1E2DBD0044E63C /* Swing AnalyzerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB97B0642D1E2DBD0044E63C /* Build configuration list for PBXNativeTarget "Swing AnalyzerUITests" */;
+			buildPhases = (
+				FB97B0502D1E2DBD0044E63C /* Sources */,
+				FB97B0512D1E2DBD0044E63C /* Frameworks */,
+				FB97B0522D1E2DBD0044E63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB97B0562D1E2DBD0044E63C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FB97B0572D1E2DBD0044E63C /* Swing AnalyzerUITests */,
+			);
+			name = "Swing AnalyzerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Swing AnalyzerUITests";
+			productReference = FB97B0542D1E2DBD0044E63C /* Swing AnalyzerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB97B0322D1E2DBC0044E63C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FB97B0392D1E2DBC0044E63C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FB97B0492D1E2DBD0044E63C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FB97B0392D1E2DBC0044E63C;
+					};
+					FB97B0532D1E2DBD0044E63C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FB97B0392D1E2DBC0044E63C;
+					};
+				};
+			};
+			buildConfigurationList = FB97B0352D1E2DBC0044E63C /* Build configuration list for PBXProject "Swing Analyzer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB97B0312D1E2DBC0044E63C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FB97B03B2D1E2DBC0044E63C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB97B0392D1E2DBC0044E63C /* Swing Analyzer */,
+				FB97B0492D1E2DBD0044E63C /* Swing AnalyzerTests */,
+				FB97B0532D1E2DBD0044E63C /* Swing AnalyzerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB97B0382D1E2DBC0044E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97B0482D1E2DBD0044E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97B0522D1E2DBD0044E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB97B0362D1E2DBC0044E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97B0462D1E2DBD0044E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB97B0502D1E2DBD0044E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB97B04C2D1E2DBD0044E63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB97B0392D1E2DBC0044E63C /* Swing Analyzer */;
+			targetProxy = FB97B04B2D1E2DBD0044E63C /* PBXContainerItemProxy */;
+		};
+		FB97B0562D1E2DBD0044E63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB97B0392D1E2DBC0044E63C /* Swing Analyzer */;
+			targetProxy = FB97B0552D1E2DBD0044E63C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB97B05C2D1E2DBD0044E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB97B05D2D1E2DBD0044E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB97B05F2D1E2DBD0044E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swing Analyzer/Preview Content\"";
+				DEVELOPMENT_TEAM = HPC79LRWZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranBrinkerIndustries.Swing-Analyzer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB97B0602D1E2DBD0044E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swing Analyzer/Preview Content\"";
+				DEVELOPMENT_TEAM = HPC79LRWZ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranBrinkerIndustries.Swing-Analyzer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB97B0622D1E2DBD0044E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranBrinkerIndustries.Swing-AnalyzerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swing Analyzer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swing Analyzer";
+			};
+			name = Debug;
+		};
+		FB97B0632D1E2DBD0044E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranBrinkerIndustries.Swing-AnalyzerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swing Analyzer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swing Analyzer";
+			};
+			name = Release;
+		};
+		FB97B0652D1E2DBD0044E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranBrinkerIndustries.Swing-AnalyzerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swing Analyzer";
+			};
+			name = Debug;
+		};
+		FB97B0662D1E2DBD0044E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TranBrinkerIndustries.Swing-AnalyzerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swing Analyzer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB97B0352D1E2DBC0044E63C /* Build configuration list for PBXProject "Swing Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97B05C2D1E2DBD0044E63C /* Debug */,
+				FB97B05D2D1E2DBD0044E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB97B05E2D1E2DBD0044E63C /* Build configuration list for PBXNativeTarget "Swing Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97B05F2D1E2DBD0044E63C /* Debug */,
+				FB97B0602D1E2DBD0044E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB97B0612D1E2DBD0044E63C /* Build configuration list for PBXNativeTarget "Swing AnalyzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97B0622D1E2DBD0044E63C /* Debug */,
+				FB97B0632D1E2DBD0044E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB97B0642D1E2DBD0044E63C /* Build configuration list for PBXNativeTarget "Swing AnalyzerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB97B0652D1E2DBD0044E63C /* Debug */,
+				FB97B0662D1E2DBD0044E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB97B0322D1E2DBC0044E63C /* Project object */;
+}
